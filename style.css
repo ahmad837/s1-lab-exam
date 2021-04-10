@@ -1731,37 +1731,3 @@ a.navbar-brand img {
         background: rgba(17, 17, 17, .9);
         padding: 3.5rem 0
     }
-
-div.wpcf7 .ajax-loader {
-    -webkit-transform: rotateZ(45deg);
-    transform: rotateZ(45deg);
-    -webkit-perspective: 1000px;
-    perspective: 1000px;
-    border-radius: 50%
-}
-
-div.wpcf7 .ajax-loader:before,
-div.wpcf7 .ajax-loader:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: inherit;
-    height: inherit;
-    border-radius: 50%;
-    -webkit-animation: 1s cf7cs-11 linear infinite;
-    animation: 1s cf7cs-11 linear infinite
-}
-
-div.wpcf7 .ajax-loader:before {
-    -webkit-transform: rotateX(70deg);
-    transform: rotateX(70deg)
-}
-
-div.wpcf7 .ajax-loader:after {
-    -webkit-transform: rotateY(70deg);
-    transform: rotateY(70deg);
-    -webkit-animation-delay: .4s;
-    animation-delay: .4s
-}
